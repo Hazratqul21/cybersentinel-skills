@@ -6,6 +6,14 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-23
+
+First release. A vendor-neutral, Agent-Skills-compatible cybersecurity skill
+library: **26 reference skills** across red team, blue team, purple team, AI/LLM
+security, DFIR, and threat intelligence; a dependency-free Python validator and
+CLI; **39 passing tests**; and GitHub Actions CI. All skills pass validation with
+zero errors and zero warnings.
+
 ### Added — Phase 4 (CLI & CI finalization)
 - End-to-end CLI tests (`tests/test_cli_commands.py`) driving `main()` for
   `list`/`search`/`info`/`validate`/`install`/`--version`, asserting exit codes
@@ -47,4 +55,6 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - GitHub Actions CI running validation and tests.
 - Project docs: README, SECURITY, CONTRIBUTING, CODE_OF_CONDUCT, INTEGRATIONS.
 
-[Unreleased]: https://github.com/your-org/cybersentinel-skills/commits/main
+<!-- Replace `your-org` with the real GitHub namespace before publishing. -->
+[Unreleased]: https://github.com/your-org/cybersentinel-skills/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/your-org/cybersentinel-skills/releases/tag/v0.1.0
