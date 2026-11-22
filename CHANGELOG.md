@@ -55,6 +55,5 @@ zero errors and zero warnings.
 - GitHub Actions CI running validation and tests.
 - Project docs: README, SECURITY, CONTRIBUTING, CODE_OF_CONDUCT, INTEGRATIONS.
 
-<!-- Replace `your-org` with the real GitHub namespace before publishing. -->
-[Unreleased]: https://github.com/your-org/cybersentinel-skills/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/your-org/cybersentinel-skills/releases/tag/v0.1.0
+[Unreleased]: https://github.com/innasoft/cybersentinel-skills/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/innasoft/cybersentinel-skills/releases/tag/v0.1.0
