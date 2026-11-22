@@ -1,0 +1,40 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Validate skills (stdlib only, no deps)
+        run: PYTHONPATH=src python -m cybersentinel validate
+
+      - name: Run tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+
+  # Separate job proving the validator also works with PyYAML installed.
+  validate-with-pyyaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install PyYAML
+      - run: PYTHONPATH=src python -m cybersentinel validate
+      - run: PYTHONPATH=src python -m unittest discover -s tests
