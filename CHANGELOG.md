@@ -6,6 +6,13 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added — Phase 3 (7 skills)
+- Purple team: `adversary-emulation`, `detection-coverage-validation`.
+- DFIR: `memory-forensics-analysis`, `disk-forensic-triage`,
+  `log-timeline-analysis`.
+- Threat intelligence: `ioc-enrichment-analysis`, `threat-actor-profiling`.
+- Repository now ships **26 reference skills**, all passing validation.
+
 ### Added — Phase 2 (9 skills)
 - Red team: `ssrf-testing`, `windows-privilege-escalation`, `aws-security-audit`.
 - Blue team: `threat-hunting`, `detection-engineering`, `static-malware-analysis`.

@@ -125,6 +125,13 @@ Install never overwrites existing files without `--force`.
 | `llm-jailbreak-testing` | ai-security/jailbreak-testing | Guardrail bypass-rate assessment |
 | `rag-security-assessment` | ai-security/rag-security | RAG injection/poisoning/isolation |
 | `mcp-server-security-assessment` | ai-security/mcp-security | MCP tool/agent security |
+| `adversary-emulation` | purple-team/attack-simulation | Intel-driven actor emulation + detection scoring |
+| `detection-coverage-validation` | purple-team/detection-validation | ATT&CK coverage via atomic tests |
+| `memory-forensics-analysis` | dfir/memory-forensics | RAM analysis: injection, processes, IOCs |
+| `disk-forensic-triage` | dfir/disk-forensics | Sound acquisition + artifact timeline |
+| `log-timeline-analysis` | dfir/timeline-analysis | Unified UTC timeline from multi-source logs |
+| `ioc-enrichment-analysis` | threat-intelligence/ioc-analysis | Validate, enrich & pivot indicators |
+| `threat-actor-profiling` | threat-intelligence/threat-actor-analysis | Evidence-based actor TTP profile |
 
 ## Contribution guidelines
 
