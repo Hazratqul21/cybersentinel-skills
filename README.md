@@ -74,7 +74,7 @@ Paths can be overridden with `--path`.
 ## Installation
 
 ```bash
-git clone https://github.com/innasoft/cybersentinel-skills.git
+git clone https://github.com/Hazratqul21/cybersentinel-skills.git
 cd cybersentinel-skills
 
 # Zero-dependency usage (stdlib only):
