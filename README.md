@@ -17,6 +17,13 @@ Copilot, Gemini CLI, and other compatible agents.
 > defensive operations, education, and controlled research. See
 > [SECURITY.md](SECURITY.md) and each skill's *Scope & Authorization* section.
 
+> 💡 **Getting a refusal on legitimate work?** A skill does not grant permission or
+> override an agent's safety judgment — nor should it. Refusals almost always mean
+> your prompt is missing **authorization context**, not that the skill is broken.
+> State your engagement (authorized pentest / CTF / your own lab) and the in-scope
+> targets up front. See **[docs/USAGE.md](docs/USAGE.md)** and the copy-paste
+> **[authorization preamble](shared/authorization-template.md)**.
+
 ---
 
 ## Features
