@@ -116,6 +116,15 @@ Install never overwrites existing files without `--force`.
 | `soc-alert-triage` | blue-team/soc-analysis | Consistent SIEM/EDR alert triage |
 | `incident-response` | blue-team/incident-response | NIST SP 800-61 IR lifecycle |
 | `llm-prompt-injection-assessment` | ai-security/prompt-injection | Direct/indirect prompt injection |
+| `ssrf-testing` | red-team/web-security | SSRF incl. blind & cloud metadata |
+| `windows-privilege-escalation` | red-team/windows-security | Local Windows privesc audit |
+| `aws-security-audit` | red-team/cloud-security | CIS-aligned AWS misconfig audit |
+| `threat-hunting` | blue-team/threat-hunting | Hypothesis-driven ATT&CK hunts |
+| `detection-engineering` | blue-team/detection-engineering | Build & tune Sigma/SIEM detections |
+| `static-malware-analysis` | blue-team/malware-analysis | Safe static triage & IOC extraction |
+| `llm-jailbreak-testing` | ai-security/jailbreak-testing | Guardrail bypass-rate assessment |
+| `rag-security-assessment` | ai-security/rag-security | RAG injection/poisoning/isolation |
+| `mcp-server-security-assessment` | ai-security/mcp-security | MCP tool/agent security |
 
 ## Contribution guidelines
 

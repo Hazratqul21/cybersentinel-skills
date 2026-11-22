@@ -6,7 +6,14 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Added
+### Added — Phase 2 (9 skills)
+- Red team: `ssrf-testing`, `windows-privilege-escalation`, `aws-security-audit`.
+- Blue team: `threat-hunting`, `detection-engineering`, `static-malware-analysis`.
+- AI security: `llm-jailbreak-testing`, `rag-security-assessment`,
+  `mcp-server-security-assessment`.
+- Repository now ships **19 reference skills**, all passing validation.
+
+### Added — Phase 1
 - Repository architecture across all security domains (red/blue/purple, AI,
   DFIR, threat intelligence, security engineering, shared).
 - Skill specification ([docs/SKILL_SPECIFICATION.md](docs/SKILL_SPECIFICATION.md))
