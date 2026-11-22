@@ -6,6 +6,13 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added — Phase 4 (CLI & CI finalization)
+- End-to-end CLI tests (`tests/test_cli_commands.py`) driving `main()` for
+  `list`/`search`/`info`/`validate`/`install`/`--version`, asserting exit codes
+  and output. Test suite now **39 tests** (was 25).
+- Verified the install flow end-to-end (dry-run writes nothing, real install
+  copies `SKILL.md`, skip/`--force`/`--category` behave correctly).
+
 ### Added — Phase 3 (7 skills)
 - Purple team: `adversary-emulation`, `detection-coverage-validation`.
 - DFIR: `memory-forensics-analysis`, `disk-forensic-triage`,
